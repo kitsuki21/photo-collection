@@ -1,0 +1,68 @@
+.App {
+  padding-left: 40px;
+  background-color: #b7b6b6;
+  padding: 30px 40px 0 40px;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.tags-elem {
+  padding: 5px 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: #ffff;
+  cursor: pointer;
+}
+
+.tags-elem-active {
+  background: #000;
+  color: white;
+}
+
+input {
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+}
+
+.wrapper-collection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.pages {
+  margin: 97px 0 0;
+  padding-bottom: 35px;
+}
+
+.pages-elem {
+  padding: 4px 8px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background: #ffff;
+  cursor: pointer;
+}
+
+.pages-elem-active {
+  color: white;
+  background: #000;
+}

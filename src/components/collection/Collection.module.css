@@ -1,0 +1,31 @@
+.collection {
+  width: 300px;
+  background: rgb(253, 252, 252);
+  padding: 24px;
+  margin: 20px 20px 0 0;
+  border-radius: 28px;
+}
+
+.mainPhoto {
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.listPhoto {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+img {
+  width: 96px;
+  height: 80px;
+  border-radius: 18px;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
